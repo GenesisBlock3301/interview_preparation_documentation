@@ -3,25 +3,43 @@ import os
 # Remove the outer "Interview_Preparation" layer
 structure = {
     "01_Company_Research": {},
-    "02_Programming_and_Algorithms": {
-        "01_Data_Structures.md": "",
-        "02_Algorithms.md": "",
-        "03_Coding_Practice_Problems.md": "",
+
+    "02_Programming_Fundamentals": {
+        "01_Python_Core.md": "",
+        "02_OOP.md": "",
+        "03_Data_Structures.md": "",
+        "04_Algorithms.md": "",
+        "05_SQL.md": "",
+        "06_Problem_Solving_Practice.md": "",
     },
-    "03_Machine_Learning_Fundamentals": {},
-    "04_Deep_Learning": {
-        "01_Theory.md": "",
-        "02_Projects.md": "",
-        "03_Coding_Exercises.md": "",
+
+    "03_System_Design": {
+        "01_High_Level_Design.md": "",
+        "02_Low_Level_Design.md": "",
+        "03_Design_Principles.md": "",
+        "04_Design_Patterns.md": "",
     },
-    "05_Computer_Vision": {
-        "01_Concepts.md": "",
-        "02_Projects.md": "",
+
+    "04_Computer_Science_Core": {
+        "01_Operating_System.md": "",
+        "02_Networking.md": "",
     },
-    "06_System_Design": {},
-    "07_Soft_Skills": {},
-    "08_Questions_and_Answers": {},
+
+    "05_Machine_Learning_and_AI": {
+        "01_ML_Fundamentals.md": "",
+        "02_Deep_Learning.md": "",
+        "03_Computer_Vision.md": "",
+    },
+
+    "06_Soft_Skills_and_Behavioral": {
+        "01_Communication.md": "",
+        "02_Leadership.md": "",
+        "03_Teamwork.md": "",
+    },
+
+    "07_FAQ_and_QA.md": ""
 }
+
 
 def create_structure(base_path, structure_dict):
     for name, content in structure_dict.items():
